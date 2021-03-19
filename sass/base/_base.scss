@@ -1,0 +1,13 @@
+@import "../sass-utils/variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  // this defines what 1 rem is
+  font-size: 62.5%;
+}
+body {
+  color: $color-grey-dark;
+}
