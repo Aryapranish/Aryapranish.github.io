@@ -9,7 +9,8 @@ body {
 .heading-primary {
   color: $color-white;
   text-transform: uppercase;
-
+  // font-family: "Abril Fatface", cursive;
+  // font-family: "Baskervville", serif;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
@@ -17,7 +18,7 @@ body {
     display: block;
     font-size: 6rem;
     font-weight: 400;
-    letter-spacing: 3.5rem;
+    letter-spacing: 3rem;
 
     animation-name: moveInLeft;
     animation-duration: 1s;
