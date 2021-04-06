@@ -83,13 +83,14 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+  font-family: "DM Serif Display", serif;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
   .heading-primary--main {
     display: block;
-    font-size: 6rem;
+    font-size: 8rem;
     font-weight: 400;
-    letter-spacing: 3rem;
+    letter-spacing: 1rem;
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
@@ -115,6 +116,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: "DM Serif Display", serif;
   display: inline-block;
   background-image: linear-gradient(to right, #544a7d, #ffd452);
   -webkit-background-clip: text;
@@ -148,6 +150,7 @@ body {
 
 .heading-tertiary {
   font-size: 1.6rem;
+  font-family: "DM Serif Display", serif;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -545,6 +548,46 @@ body {
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
   opacity: 1; }
 
+.loader_bg {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background: #fff; }
+
+.loader {
+  border: 0 solid transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 30%;
+  left: 45%; }
+  .loader::before, .loader::after {
+    content: "";
+    border: 1em solid #ff3333;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite; }
+  .loader::before {
+    animation-delay: 0.5s; }
+
+@keyframes loader {
+  0% {
+    transform: scale(0);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  80% {
+    opacity: 0.5; }
+  100% {
+    transform: scale(1);
+    opacity: 0; } }
+
 .popup {
   height: 100vh;
   width: 100%;
@@ -681,7 +724,7 @@ body {
     transform: translate(-50%, -50%); }
   .story:hover .story__img {
     transform: scale(1);
-    filter: blur(5px) brightness(80%); }
+    filter: blur(10px) brightness(60%); }
 
 .footer {
   left: 0;

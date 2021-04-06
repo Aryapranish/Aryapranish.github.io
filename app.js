@@ -1,4 +1,6 @@
-// $("#link_click").click(function () {
-//   $(".navigation").css("position", "relative");
-//   $(".navigation").css("z-index", -10000);
-// });
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
+setTimeout(function () {
+  $(".loader_bg").fadeToggle();
+}, 5000);
