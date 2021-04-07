@@ -83,7 +83,6 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
-  font-family: "DM Serif Display", serif;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
   .heading-primary--main {
@@ -116,7 +115,6 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "DM Serif Display", serif;
   display: inline-block;
   background-image: linear-gradient(to right, #544a7d, #ffd452);
   -webkit-background-clip: text;
@@ -150,7 +148,6 @@ body {
 
 .heading-tertiary {
   font-size: 1.6rem;
-  font-family: "DM Serif Display", serif;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -553,7 +550,7 @@ body {
   z-index: 9999;
   width: 100%;
   height: 100%;
-  background: #fff; }
+  background: white; }
 
 .loader {
   border: 0 solid transparent;
@@ -561,11 +558,13 @@ body {
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 30%;
-  left: 45%; }
+  left: 50%;
+  top: 40%;
+  margin-left: -7.8vh;
+  margin-top: -7.8vh; }
   .loader::before, .loader::after {
     content: "";
-    border: 1em solid #ff3333;
+    border: 1em solid #f05353;
     border-radius: 50%;
     width: inherit;
     height: inherit;

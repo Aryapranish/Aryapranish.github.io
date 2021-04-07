@@ -11,7 +11,7 @@ body {
   text-transform: uppercase;
   // font-family: "Abril Fatface", cursive;
   // font-family: "Baskervville", serif;
-  font-family: "DM Serif Display", serif;
+  // font-family: "DM Serif Display", serif;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
@@ -52,7 +52,7 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  font-family: "DM Serif Display", serif;
+  // font-family: "DM Serif Display", serif;
 
   display: inline-block;
   background-image: linear-gradient(to right, $color-text-01, $color-text-02);
@@ -96,7 +96,7 @@ body {
 
 .heading-tertiary {
   font-size: $default-font-size;
-  font-family: "DM Serif Display", serif;
+  // font-family: "DM Serif Display", serif;
 
   font-weight: 700;
   text-transform: uppercase;

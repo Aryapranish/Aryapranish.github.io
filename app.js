@@ -3,4 +3,4 @@ window.onbeforeunload = function () {
 };
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
-}, 5000);
+}, 3000);

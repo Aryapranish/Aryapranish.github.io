@@ -3,7 +3,8 @@
   z-index: 9999;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: rgb(255, 255, 255);
+  // padding: -3rem;
 }
 
 .loader {
@@ -12,13 +13,15 @@
   width: 150px;
   height: 150px;
   position: absolute;
-  top: 30%;
-  left: 45%;
+  left: 50%;
+  top: 40%;
+  margin-left: -7.8vh;
+  margin-top: -7.8vh;
 
   &::before,
   &::after {
     content: "";
-    border: 1em solid #ff3333;
+    border: 1em solid #f05353;
     border-radius: 50%;
     width: inherit;
     height: inherit;
